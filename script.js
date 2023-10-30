@@ -54,6 +54,7 @@ userOne.createRepo('Learn Python', 'Muktadir Nayeem');
 // const newRepo = userOne.createRepo('jsLearning', 'Nayeem')
 
 const repoUpdate = userOne.updateRepo('Learn Python', {creator: 'Jillur Rahman', createAt: Date.now()});
+userOne.updateRepo('Learn Python', {creator: 'Ariful Islam', createAt: Date.now()});
 
 console.log(repoUpdate);
 console.log(userOne.getRepos());
